@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Android", "Android", "{0964
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinnerUsage", "Android\SpinnerUsage\SpinnerUsage.csproj", "{911ECF2A-06C3-4FFC-8132-9F2264A47F4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FragmentUsage", "FragmentUsage\FragmentUsage.csproj", "{6CA4623E-2313-493C-A3B0-97291A341B33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,18 @@ Global
 		{911ECF2A-06C3-4FFC-8132-9F2264A47F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{911ECF2A-06C3-4FFC-8132-9F2264A47F4F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{911ECF2A-06C3-4FFC-8132-9F2264A47F4F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6CA4623E-2313-493C-A3B0-97291A341B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA4623E-2313-493C-A3B0-97291A341B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA4623E-2313-493C-A3B0-97291A341B33}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6CA4623E-2313-493C-A3B0-97291A341B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA4623E-2313-493C-A3B0-97291A341B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA4623E-2313-493C-A3B0-97291A341B33}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{911ECF2A-06C3-4FFC-8132-9F2264A47F4F} = {0964E17D-9721-45A7-B27E-8CBAEB44BEE5}
+		{6CA4623E-2313-493C-A3B0-97291A341B33} = {0964E17D-9721-45A7-B27E-8CBAEB44BEE5}
 	EndGlobalSection
 EndGlobal
