@@ -24,8 +24,11 @@ namespace FragmentUsage
         {
             base.OnViewCreated(view, savedInstanceState);
 
-            var btn = this.Activity.FindViewById<Button>(Resource.Id.button1);
-            btn.Click += button1_OnClicked;
+            var btn1 = this.Activity.FindViewById<Button>(Resource.Id.button1);
+            btn1.Click += button1_OnClicked;
+
+            var btn2 = this.Activity.FindViewById<Button>(Resource.Id.button2);
+            btn2.Click += button2_OnClicked;
         }
 
         private void button1_OnClicked(object sender, EventArgs e)
@@ -33,6 +36,18 @@ namespace FragmentUsage
             this.FragmentManager
                 .BeginTransaction()
                 .Replace(Android.Resource.Id.Content, new Fragment1())
+                .AddToBackStack(null)
+                .Commit();
+        }
+
+        private void button2_OnClicked(object sender, EventArgs e)
+        {
+            this.FragmentManager
+                .BeginTransaction()
+                .Add(Resource.Id.linearLayout1, new Fragment1())
+                .Add(Resource.Id.linearLayout1, new Fragment2())
+                .Add(Resource.Id.linearLayout1, new Fragment1())
+                .Add(Resource.Id.linearLayout1, new Fragment2())
                 .AddToBackStack(null)
                 .Commit();
         }
