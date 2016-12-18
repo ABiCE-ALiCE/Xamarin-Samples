@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Android", "Android", "{0964
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinnerUsage", "Android\SpinnerUsage\SpinnerUsage.csproj", "{911ECF2A-06C3-4FFC-8132-9F2264A47F4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FragmentUsage", "FragmentUsage\FragmentUsage.csproj", "{6CA4623E-2313-493C-A3B0-97291A341B33}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FragmentUsage", "Android\FragmentUsage\FragmentUsage.csproj", "{6CA4623E-2313-493C-A3B0-97291A341B33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenOrientationUsage", "ScreenOrientationUsage\ScreenOrientationUsage.csproj", "{AB4D2434-6202-412B-98AD-A7BFF3A00B83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenOrientationUsage", "Android\ScreenOrientationUsage\ScreenOrientationUsage.csproj", "{AB4D2434-6202-412B-98AD-A7BFF3A00B83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
