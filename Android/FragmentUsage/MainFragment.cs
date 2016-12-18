@@ -29,10 +29,20 @@ namespace FragmentUsage
 
             var btn2 = this.Activity.FindViewById<Button>(Resource.Id.button2);
             btn2.Click += button2_OnClicked;
+
+            var btn3 = this.Activity.FindViewById<Button>(Resource.Id.button3);
+            btn3.Click += button3_OnClicked;
         }
 
         private void button1_OnClicked(object sender, EventArgs e)
         {
+            //var manager = this.FragmentManager;
+            //var trans = manager.BeginTransaction();
+            //trans.Replace(Android.Resource.Id.Content, new Fragment1());
+            //trans.AddToBackStack(null);
+            //trans.Commit();
+
+            // can use method chain
             this.FragmentManager
                 .BeginTransaction()
                 .Replace(Android.Resource.Id.Content, new Fragment1())
@@ -50,6 +60,12 @@ namespace FragmentUsage
                 .Add(Resource.Id.linearLayout1, new Fragment2())
                 .AddToBackStack(null)
                 .Commit();
+        }
+
+        private void button3_OnClicked(object sender, EventArgs e)
+        {
+            var intent = new Intent(this.Activity, typeof(Activity1));
+            this.StartActivity(intent);
         }
     }
 }

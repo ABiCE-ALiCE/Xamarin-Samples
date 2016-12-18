@@ -51,6 +51,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activity1.cs" />
+    <Compile Include="Fragment3.cs" />
     <Compile Include="Fragment2.cs" />
     <Compile Include="Fragment1.cs" />
     <Compile Include="MainFragment.cs" />
@@ -65,6 +67,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\layout2.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\layout3.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
